@@ -1,0 +1,12 @@
+function accum($s) {
+ $a = str_split($s,1);
+  foreach($a as $index => $part) {
+      $parts[] = strtoupper($part) . str_repeat(strtolower($part), $index);
+    }
+    
+    return implode('-', $parts);
+ 
+}
+print(accum("naidin"));
+
+//N-Aa-Iii-Dddd-Iiiii-Nnnnnn
