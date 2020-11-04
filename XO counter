@@ -1,0 +1,22 @@
+function XO($s) {
+    $split = str_split(strtoupper($s),1);
+  print_r($split);
+  $i=0;
+  $j=0;
+  foreach($split as $key => $value){
+         if($value == "X"){
+         $i = $i+1;
+     }
+  }
+  foreach($split as $key2 => $value2){
+         if($value2 == "O"){
+         $j = $j+1;}}
+ print($j);   
+ echo("\n");
+ print($i);
+if($i==$j){
+      return true;}
+ 
+}
+
+//counts the number of X and O in a string, return true is they have the same number
