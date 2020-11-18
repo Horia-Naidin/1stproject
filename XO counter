@@ -19,4 +19,4 @@ if($i==$j){
  
 }
 
-//counts the number of X and O in a string, return true is they have the same number
+//counts the number of X and O in a string, returns true if they have the same number
