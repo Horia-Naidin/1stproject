@@ -1,11 +1,11 @@
 function reverseWords($str) {
 $split = preg_split("/ /", $str);
   foreach($split as $key => $value ){
-    $key = strrev($value); print(" ");
-   print($key);
+    $transform = strrev($value); print(" ");
+   print($transform);
     }
 }
 reverseWords('The quick brown fox jumps over the lazy dog.');
 
 
-//reverse every word in a string
+//reverses every word in the string  ehT kciuq nworb xof spmuj revo eht yzal .god
