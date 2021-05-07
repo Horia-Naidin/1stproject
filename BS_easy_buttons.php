@@ -18,6 +18,7 @@ for ($i = 1; $i <= 9; $i++){
 echo '<div  id="bttn'.$i.'" class="col" style="padding:2px"><button class="btn btn-primary w-100 p-3">'.$i .' </button></div>';
 }
 echo '</div>';
+echo '<script defer>function changeButton(bttn){bttn.remove();}</script>';
 ?>
 </body>
 </html>
