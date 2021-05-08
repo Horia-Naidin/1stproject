@@ -53,7 +53,7 @@ echo '<div class="col" style="padding:2px" ><button id="bttn'.$number.'" class="
      bttn.classList.remove("btn-primary");
      bttn.classList.add("btn-secondary");
      
-    // bttn.remove();
+    // bttn.remove(); // removes the button, not for now
 }
     </script>';
  
