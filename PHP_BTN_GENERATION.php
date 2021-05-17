@@ -15,7 +15,6 @@
     
 <?php 
 
-
 $arr2 = range(1,5);
 print_r($arr2);
 
